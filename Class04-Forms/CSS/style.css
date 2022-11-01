@@ -1,0 +1,191 @@
+.main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(250,250,250,0.8);
+}
+.singup{
+    width: 100%;
+    max-width: 30%;
+    margin: auto;
+    height:500px;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.singupclose{
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size: 20px;
+    color: #aaa;
+    cursor: pointer;
+}
+.heading {
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.heading .heading1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading .headingtext {
+    font-size: 17px;
+    margin-top: 5px;
+}
+.heading1 {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.heading input[type=text]{
+    width: 45%;
+    padding:8px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.email{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.email input[type=email]{
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.password {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.password input[type=password]{
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.datebirth {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.datealert {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #aaa;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+}
+.date{
+    width: 32%;
+    padding:  5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: left;
+    border:none; 
+    border: 1px solid #ccc;
+    
+    
+}
+.day{
+    width: 32%;
+    padding:  5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: left;
+    border:none; 
+    border: 1px solid #ccc;
+
+}
+.year{
+    width: 32%;
+    padding:  5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: left;
+    border:none; 
+    border: 1px solid #ccc;
+    color: #080808;
+}
+.gendertext{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center; 
+}
+.genderalert{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #aaa;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+}
+.gender {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.gendername {
+    width: 32%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.terms{
+    width: 100%;
+    margin-top: 15px; 
+    font-size: 12px;
+}
+.submit{
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.submit button{
+    width: 100%;
+    padding: 10px;
+    background-color:#32cd32;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
